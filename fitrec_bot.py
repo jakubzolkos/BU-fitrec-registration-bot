@@ -5,9 +5,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 import time
 import datetime as dt
-import sys
-import os
-import shutil
+
 
 def access_website(username, password, phone, workout_slot, workout_date):
     ''' Login to BU website and register for the workout '''
